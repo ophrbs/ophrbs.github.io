@@ -13,6 +13,11 @@ h2 {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
 /* header */
 header {
   display: flex;
@@ -40,7 +45,6 @@ header {
   border-radius: 10px;
   color: #fff;
   text-decoration: none;
-  font-family: "Ubuntu", sans-serif;
 }
 
 .github-link:hover {
@@ -75,9 +79,19 @@ header {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.intro-info {
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 1.2rem;
+  border-top: 1px solid #331155;
+  border-bottom: 1px solid #331155;
+  display: inline-block;
+}
+
 /* projets */
 .projects {
-  margin-bottom: 100px;
+  margin-bottom: 76px;
 }
 
 .projects h2 {
@@ -88,10 +102,13 @@ header {
 .projects-list {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .project-card {
   width: 300px;
+  flex-basis: 22%;
+  margin-bottom: 24px;
 }
 
 .project-card img {
@@ -104,9 +121,44 @@ header {
   border-color: #a044eb;
 }
 
-.project-card p {
+.card-title {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
+  margin-top: 6px;
+}
+
+.btns-link {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.btn-1 {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #5f2d8b;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.btn-1:hover {
+  background-color: #a044eb;
+}
+
+.btn-2 {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #5f2d8b;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.btn-2:hover {
+  background-color: #331155;
+  border: 1px solid #331155;
 }
 
 /* footer */
@@ -119,4 +171,28 @@ footer p {
   font-family: "Ubuntu", sans-serif;
   text-align: center;
   font-weight: 400;
+}
+
+/* responsivo */
+@media (max-width: 1200px) {
+  header {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .projects-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-card {
+    flex-basis: auto;
+  }
+
+  .projects h2 {
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+  }
 }
