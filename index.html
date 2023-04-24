@@ -1,83 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leandro Herbas | Front-end & UI/UX</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="shortcut icon" href="./img/github-logo.png" type="image/x-icon">
-  <title>Projetos | Leandro Herbas</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index-responsivo.css">
 </head>
 
 <body>
   <header>
-    <h1 class="ophrbs">ophrbs</h1>
-    <a href="https://github.com/ophrbs" class="github-link">GitHub <img src="./img/github-logo.png" alt="github"></a>
+    <span></span>
+    <nav class="texto-1">
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#projetos" class="nav-link">Projetos</a>
+      <a href="#certificados" class="nav-link">Certificados</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+    <a href="./guia-de-estilo.html" class="btn-2">Guia de Estilo</a>
   </header>
 
-  <main>
-    <section class="intro">
-      <p class="subtitle">Front-end Developer | UI/UX Designer</p>
-      <h1><span>L</span>eandro <span>H</span>erbas</h1>
-      <p class="intro-info">Página criada com o intuito de listar meus projetos para fácil acesso.<br>Por favor, acesse-os abaixo para mais informações.</p>
+  <main id="sobre">
+    <section class="container-intro">
+      <h1 class="nome-intro">Leandro<br>Herbas</h1>
+      <span class="span-intro titulo-1">Front End<br>& UI<br>& UX</span>
     </section>
 
-    <section class="projects">
-      <h2>Projetos</h2>
+    <div class="sobre-bg">
+      <section class="sobre drop-shadow">
+        <h3 class="titulo-2">Resumo e conhecimentos</h3>
 
-      <div class="projects-list">
-
-        <div class="project-card">
-          <a href="https://ophrbs.github.io/Testeestagiariowebdesigner/"><img src="./img/project-landing-img.png" alt="landing"></a>
-          <p class="card-title">Landing Page</p>
-          <div class="btns-link">
-            <a href="https://github.com/ophrbs/Testeestagiariowebdesigner" class="btn-1">GitHub</a>
-            <a href="https://ophrbs.github.io/Testeestagiariowebdesigner/" class="btn-2">Demo</a>
-          </div>
+        <div class="sobre-textos">
+          <p class="texto-1"><span></span>21 anos, Rio de Janeiro - Brasil</p>
+          <p class="texto-1"><span></span>Estudante de <strong>Análise e Desenvolvimento de<br>&emsp;Sistemas</strong> na Faculdade de Educação Tecnológica<br>&emsp;do Estado do Rio de Janeiro <strong>(FAETERJ-Rio)</strong>.</p>
+          <p class="texto-1"><span></span>Experiência com Web Design <strong>(UI/UX)</strong><br>&emsp;e Desenvolvimento Web <strong>(Front-end)</strong>.</p>
         </div>
 
-        <div class="project-card">
-          <a href="https://ophrbs.github.io/LUTHIERIA/"><img src="./img/project-luthieria-img.png" alt="LUTHIERIA"></a>
-          <p class="card-title">LUTHIERIA</p>
-          <div class="btns-link">
-            <a href="https://github.com/ophrbs/LUTHIERIA" class="btn-1">GitHub</a>
-            <a href="https://ophrbs.github.io/LUTHIERIA/" class="btn-2">Demo</a>
+        <div class="sobre-skills">
+          <div class="skills-linguagens">
+            <h3 class="titulo-3 titulo-skills">Linguagens</h3>
+            <p class="texto-2">HTML, CSS<br>Javascript<br>C, PHP</p>
+          </div>
+
+          <div class="skills-ferramentas">
+            <h3 class="titulo-3 titulo-skills">Ferramentas</h3>
+            <p class="texto-2">Visual Studio Code, git, github<br>Figma, Adobe Photoshop,<br>Adobe Illustrator, Blender</p>
+          </div>
+
+          <div class="skills-idiomas">
+            <h3 class="titulo-3 titulo-skills">Idiomas</h3>
+            <p class="texto-2">Português nativo<br>Inglês fluente</p>
           </div>
         </div>
+      </section>
+    </div>
 
-        <div class="project-card">
-          <a href="https://figma.fun/W9GfGu"><img src="./img/project-rentacar-img.jpg" alt="Rent-a-Car"></a>
-          <p class="card-title">Rent a Car</p>
-          <div class="btns-link">
-            <a href="https://figma.fun/W9GfGu" class="btn-1">Figma</a>
-          </div>
+    <section class="projetos" id="projetos">
+      <h1 class="titulo-1 titulo-projetos">Projetos</h1>
+
+      <div class="projeto-luthieria">
+        <img src="./img/projetos/luthieria-img.png" alt="Projeto Luthieria" class="img-projetos1">
+        <div class="info-projeto">
+          <h3 class="titulo-2">LUTHIERIA</h3>
+          <span class="texto-2 span-projeto span-projeto1">Design & Desenvolvimento</span>
+          <p class="texto-2 texto-projeto">Desenvolvimento de um site de vendas de instrumentos musicais personalizados, desde a idealização e criação da interface até o código final.</p>
+          <a href="https://github.com/ophrbs/LUTHIERIA" class="btn-1">GITHUB</a>
+          <a href="https://ophrbs.github.io/LUTHIERIA/" class="btn-2">DEMO</a>
         </div>
+      </div>
 
-        <div class="project-card">
-          <a href="https://ophrbs.github.io/Origamid/"><img src="./img/project-origamid-img.png" alt="Origamid"></a>
-          <p class="card-title">Origamid</p>
-          <div class="btns-link">
-            <a href="https://github.com/ophrbs/Origamid" class="btn-1">GitHub</a>
-            <a href="https://ophrbs.github.io/Origamid/" class="btn-2">Demo</a>
-          </div>
+      <div class="projeto-rentacar">
+        <img src="./img/projetos/rentacar-img.jpg" alt="Projeto Rent a Car" class="img-projetos2">
+        <div class="info-projeto2">
+          <h3 class="titulo-2">Rent a Car</h3>
+          <span class="texto-2 span-projeto span-projeto2">Design</span>
+          <p class="texto-2 texto-projeto">Protótipo de um site de aluguel de carros completo, com home, login, cadastro, lista de carros, e mais. Projeto realizado para a matéria de Interface Homem-Máquina da faculdade.</p>
+          <a href="https://figma.fun/W9GfGu" class="btn-1">FIGMA</a>
         </div>
+      </div>
 
-        <div class="project-card">
-          <a href="https://ophrbs.github.io/Frontend-Mentor/"><img src="./img/project-frontendmentor-img.png" alt="Frontend Mentor"></a>
-          <p class="card-title">Frontend Mentor</p>
-          <div class="btns-link">
-            <a href="https://github.com/ophrbs/Frontend-Mentor/" class="btn-1">GitHub</a>
-            <a href="https://ophrbs.github.io/Frontend-Mentor/" class="btn-2">Demo</a>
-          </div>
+      <div class="projeto-esse">
+        <img src="./img/projetos/portfolio-img.png" alt="Projeto de estágio" class="img-projetos1">
+        <div class="info-projeto">
+          <h3 class="titulo-2">Esse site!</h3>
+          <span class="texto-2 span-projeto span-projeto3">Design & Desenvolvimento</span>
+          <p class="texto-2 texto-projeto">Landing Page pessoal com informações sobre mim e meu trabalho.</p>
+          <a href="https://github.com/ophrbs/ophrbs.github.io" class="btn-1">GITHUB</a>
+        </div>
+      </div>
+
+      <div class="mais-projetos">
+        <div>
+          <a href="https://github.com/ophrbs" class="titulo-3">VER MAIS PROJETOS <img src="./img/seta.svg" alt="setinha"></a>
+          <span></span>
         </div>
       </div>
     </section>
-  </main>
 
-  <footer>
-    <p>Designed and coded by Leandro Herbas<br>© 2021</p>
-  </footer>
+    <section class="certificados" id="certificados">
+      <h1 class="titulo-1 certificados-titulo">Certificados</h1>
+      <div class="certificados-legenda">
+        <p class="texto-2" style="color:#e44d26;">&squf; Foco em Front-end</p>
+        <p class="texto-2" style="color:#873eff">&squf; Foco em Design</p>
+      </div>
+      <div class="certificados-container">
+        <div class="certificados-item">
+          <a href="https://www.origamid.com/certificate/38db0fa8">
+            <img src="./img/certificados/ui-avancado.jpg" class="design" alt="UI Design Avançado">
+          </a>
+          <h4 class="titulo-3">UI Design Avançado</h4>
+        </div>
+
+        <div class="certificados-item">
+          <a href="https://www.origamid.com/certificate/3a93a74f">
+            <img src="./img/certificados/heuristicas.jpg" class="design" alt="UX Design Heurísticas">
+          </a>
+          <h4 class="titulo-3">UX Design Heurísticas</h4>
+        </div>
+
+        <div class="certificados-item">
+          <a href="https://www.origamid.com/certificate/f87d9ccf">
+            <img src="./img/certificados/html-css.jpg" class="frontend" alt="HTML e CSS para Iniciantes">
+          </a>
+          <h4 class="titulo-3">HTML e CSS para Iniciantes</h4>
+        </div>
+
+        <div class="certificados-item">
+          <a href="https://www.origamid.com/certificate/ce58f39b">
+            <img src="./img/certificados/tipografia.jpg" class="design" alt="Tipografia Avançada">
+          </a>
+          <h4 class="titulo-3">Tipografia Avançada</h4>
+        </div>
+
+        <div class="certificados-item">
+          <a href="https://www.origamid.com/certificate/962e9d89">
+            <img src="./img/certificados/grid.jpg" class="frontend" alt="CSS Grid Layout">
+          </a>
+          <h4 class="titulo-3">CSS Grid Layout</h4>
+        </div>
+
+        <div class="certificados-item">
+          <a href="https://www.origamid.com/certificate/dc8845a5">
+            <img src="./img/certificados/flexbox.jpg" class="frontend" alt="CSS Flexbox">
+          </a>
+          <h4 class="titulo-3">CSS Flexbox</h4>
+        </div>
+
+        <div class="certificados-item">
+          <a href="https://www.origamid.com/certificate/a0a6a699">
+            <img src="./img/certificados/ui-iniciantes.jpg" class="design" alt="UI Design para Iniciantes">
+          </a>
+          <h4 class="titulo-3">UI Design para Iniciantes</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <h1 class="titulo-1 titulo-contato">Onde me encontrar?</h1>
+
+      <div class="contato-cards">
+
+        <div class="contato-github">
+          <a href="https://github.com/ophrbs">
+            <img src="./img/github-img.png" alt="github" class="img-contato">
+            <div class="descricao-contato">
+              <p class="titulo-3 color-white">GitHub</p>
+              <img src="./img/link.svg" alt="icone-link" class="link-svg">
+            </div>
+          </a>
+        </div>
+
+        <div class="contato-linkedin">
+          <a href="https://www.linkedin.com/in/leandroherbas/">
+            <img src="./img/linkedin-img.png" alt="linkedin" class="img-contato">
+            <div class="descricao-contato">
+              <p class="titulo-3 color-white">LinkedIn</p>
+              <img src="./img/link.svg" alt="icone-link" class="link-svg">
+            </div>
+          </a>
+        </div>
+
+
+      </div>
+      <div class="btns-contato">
+        <a href="mailto:leandroherbas@outlook.com" class="btn-3">Envie um email</a>
+        <a href="./img/curriculum.pdf" target="_blank" class="btn-3">Curriculum Vitae</a>
+      </div>
+    </section>
+
+    <footer>
+      <p class="texto-2">© Leandro Herbas</p>
+      <p class="texto-2">Designed and Developed by me 😜</p>
+    </footer>
+  </main>
 </body>
 
 </html>

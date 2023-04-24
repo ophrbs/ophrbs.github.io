@@ -1,0 +1,263 @@
+/* responsivo */
+@media (max-width: 1200px) {
+  /* projetos */
+  .projeto-luthieria,
+  .projeto-esse,
+  .projeto-rentacar {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 24px;
+  }
+  .img-projetos1,
+  .img-projetos2,
+  .info-projeto2 {
+    margin: 0px;
+    justify-self: auto;
+  }
+
+  .img-projetos2,
+  .info-projeto2 {
+    grid-area: unset;
+  }
+
+  /* contato */
+  .contato-cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 48px;
+  }
+
+  .contato-github {
+    justify-self: auto;
+  }
+
+  .titulo-contato {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* sobre */
+  .sobre {
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .sobre-bg {
+    height: 400px;
+  }
+
+  .sobre-skills {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--secundaria-4);
+    padding-bottom: 24px;
+  }
+
+  .sobre-skills div {
+    text-align: center;
+  }
+
+  /* projetos */
+  .info-projeto,
+  .info-projeto2 {
+    max-width: 50ch;
+  }
+}
+
+@media (max-width: 800px) {
+  /* tipografia */
+  .titulo-1 {
+    font-size: 3rem;
+  }
+
+  .titulo-2 {
+    font-size: 1.44rem;
+  }
+
+  .titulo-3 {
+    font-size: 1.2rem;
+  }
+
+  .texto-1 {
+    font-size: 1.2rem;
+  }
+
+  .texto-2 {
+    font-size: 1rem;
+  }
+
+  .titulo-projetos {
+    margin-top: 0px;
+  }
+
+  /* Header */
+  header span {
+    width: 0;
+  }
+
+  /* Sobre */
+  .container-intro {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .nome-intro,
+  .span-intro {
+    justify-self: auto;
+  }
+
+  .nome-intro br,
+  .span-intro br {
+    display: inline;
+    content: " ";
+    padding: 6px;
+  }
+
+  /* projetos */
+  .info-projeto h3,
+  .info-projeto2 h3 {
+    position: initial;
+  }
+
+  .span-projeto {
+    position: initial;
+  }
+
+  /* certificados */
+  .certificados-legenda {
+    padding: 0;
+    background: none;
+    margin: 0 auto;
+  }
+
+  .certificados-item img {
+    width: 300px;
+  }
+}
+@media (max-width: 700px) {
+  /* header */
+  header {
+    justify-content: center;
+  }
+
+  header span {
+    display: none;
+  }
+
+  header nav {
+    margin-left: 25px;
+  }
+
+  header > a {
+    display: none;
+  }
+
+  .container-intro {
+    gap: 12px;
+    padding: 120px 0 48px 0;
+  }
+
+  .nome-intro {
+    font-size: 4.8rem;
+  }
+
+  .span-intro {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-intro {
+    gap: 12px;
+    padding: 120px 0 48px 0;
+  }
+  .nome-intro {
+    font-size: 3.8rem;
+  }
+
+  .span-intro {
+    font-size: 1.6rem;
+  }
+
+  .span-intro br {
+    padding: 4px;
+  }
+
+  .img-contato {
+    border-radius: 0;
+  }
+
+  .sobre-textos p:before {
+    display: none;
+  }
+
+  .sobre-textos p {
+    max-width: 40ch;
+  }
+}
+
+@media (max-width: 480px) {
+  /* tipografia */
+  .titulo-1 {
+    font-size: 1.9rem;
+  }
+
+  .titulo-2 {
+    font-size: 1.2rem;
+  }
+
+  .titulo-3 {
+    font-size: 1rem;
+  }
+
+  .texto-1 {
+    font-size: 0.9rem;
+  }
+
+  .texto-2 {
+    font-size: 0.75rem;
+  }
+
+  .container-intro {
+    gap: 12px;
+    padding: 80px 0 48px 0;
+  }
+
+  .nome-intro {
+    font-size: 2.4rem;
+  }
+
+  .span-intro {
+    font-size: 1.2rem;
+  }
+
+  .span-intro br {
+    padding: 3px;
+  }
+
+  .sobre-bg {
+    height: 300px;
+  }
+
+  header .btn-2 {
+    font-size: 0.7rem;
+    padding: 8px 16px;
+  }
+
+  header nav {
+    gap: 15px;
+  }
+
+  .mais-projetos img {
+    width: 15px;
+  }
+
+  .mais-projetos span {
+    width: 83%;
+  }
+  .certificados-legenda p {
+    font-size: 0.8rem;
+  }
+}
