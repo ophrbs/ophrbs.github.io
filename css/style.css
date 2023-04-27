@@ -106,3 +106,26 @@ a {
   border-radius: 20px;
   max-width: 100%;
 }
+
+/* Animação */
+.js [data-anime] {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.js [data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.js [data-anime="left"] {
+  transform: translate3d(-59px, 0, 0);
+}
+
+.js [data-anime="right"] {
+  transform: translate3d(59px, 0, 0);
+}
+
+.js [data-anime="bottom"] {
+  transform: translate3d(0, 59px, 0);
+}
